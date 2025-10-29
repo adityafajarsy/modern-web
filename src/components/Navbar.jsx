@@ -10,11 +10,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
           <div className="flex items-center space-x-1 group cursor-pointer">
             <div>
-              <img
-                src="logo (1).png"
-                alt="CodeFlow"
-                className="w-6 h-6 sm:w-8 sm:h-8"
-              />
+                <img
+                  src="logo (1).png"
+                  alt="CodeFlow"
+                  className="w-6 h-6 sm:w-8 sm:h-8"
+                />
             </div>
             <span className="text-lg sm:text-xl md:text-2xl font-medium">
               <span className="text-white">Code</span>
@@ -58,7 +58,7 @@ export default function Navbar() {
       </div>
 
       {mobileMenuIsOpen && (
-        <div className="md:hidden bg-slate-950/95 backdrop-blur-lg border-t border-slate-800 animate-in slide-in-from-top duration-300">
+        <div className="md:hidden bg-slate-950/15 backdrop-blur-lg border-t border-slate-800 animate-in slide-in-from-top duration-300">
           <div className="px-4 py-4 sm:py-6 space-y-3 sm:space-y-4">
             <a
               href="#features"
