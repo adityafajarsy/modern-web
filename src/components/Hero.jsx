@@ -139,6 +139,9 @@ export default function Hero() {
                         lineHeight: "1.4",
                         height: "100%",
                         border: "1px sollid #3c3c3c",
+                        wordWrap: "break-word",
+                        whiteSpace: "pre-wrap",
+                        textAlign: "left"
                       }}
                     >
                       {codeExamples[activeTab]}
